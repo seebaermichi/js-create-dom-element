@@ -1,0 +1,33 @@
+{
+  "name": "vanilla-dom-helper",
+  "version": "0.0.1",
+  "description": "A simple library to create and manipulate dom-elements.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/nyc ava --verbose",
+    "test:watch": "node_modules/.bin/nyc ava --watch --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seebaermichi/vanilla-dom-helper.git"
+  },
+  "keywords": [
+    "dom",
+    "helper",
+    "javascript"
+  ],
+  "author": "“Michael <micha.becker79@gmail.com> (https://github.com/seebaermichi)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=4.6.1"
+  },
+  "bugs": {
+    "url": "https://github.com/seebaermichi/vanilla-dom-helper/issues"
+  },
+  "homepage": "https://github.com/seebaermichi/vanilla-dom-helper#readme",
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "browser-env": "^2.0.14",
+    "nyc": "^8.3.2"
+  }
+}
