@@ -1,6 +1,8 @@
 # Vanilla DOM Helper
 This is a small library which allows to create DOM-Element without any effort.
 
+[![Build Status](https://travis-ci.org/seebaermichi/html-importer.svg?branch=master)](https://travis-ci.org/seebaermichi/html-importer)
+
 ## Installation
 ```powershell
 npm install --save-dev vanilla-dom-helper
