@@ -4,7 +4,7 @@
   "description": "A simple library to create and manipulate dom-elements.",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/.bin/nyc ava --verbose",
+    "test": "node_modules/.bin/nyc ava --verbose && node_modules/.bin/nyc report --reporter=text-lcov | coveralls",
     "test:watch": "node_modules/.bin/nyc ava --watch --verbose"
   },
   "repository": {
@@ -28,6 +28,7 @@
   "devDependencies": {
     "ava": "^0.16.0",
     "browser-env": "^2.0.14",
+    "coveralls": "^2.11.14",
     "nyc": "^8.3.2"
   }
 }
