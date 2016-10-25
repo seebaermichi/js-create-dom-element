@@ -3,6 +3,7 @@ This is a small library which allows to create DOM-Element without any effort.
 
 [![Build Status](https://travis-ci.org/seebaermichi/vanilla-dom-helper.svg?branch=master)](https://travis-ci.org/seebaermichi/html-importer)
 [![version](https://img.shields.io/npm/v/vanilla-dom-helper.svg?style=flat-square)](https://www.npmjs.com/package/vanilla-dom-helper)
+[![Coverage Status](https://coveralls.io/repos/github/seebaermichi/vanilla-dom-helper/badge.svg?branch=master)](https://coveralls.io/github/seebaermichi/vanilla-dom-helper?branch=master)
 [![issues](https://img.shields.io/github/issues/seebaermichi/vanilla-dom-helper.svg?style=flat-square)](https://github.com/seebaermichi/vanilla-dom-helper/issues)
 ## Installation
 ```powershell

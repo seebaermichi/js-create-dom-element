@@ -1,6 +1,6 @@
 {
   "name": "vanilla-dom-helper",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple library to create and manipulate dom-elements.",
   "main": "index.js",
   "scripts": {
