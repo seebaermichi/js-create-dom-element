@@ -72,7 +72,7 @@ _creates_
 ### Examples of adding content to an existing DOM-Element
 ```javascript
 let paragraph = document.querySelector('p')
-paragraph = vanillaDomHelper.setElementsContent(paragraph, 'Lorem ipsum dolor sit amet, co...')
+vanillaDomHelper.setElementsContent(paragraph, 'Lorem ipsum dolor sit amet, co...')
 ```
 _creates_
 ```html
@@ -80,7 +80,7 @@ _creates_
 ```
 ```javascript
 let div = document.querySelector('div')
-div = vanillaDomHelper.setElementsContent(div, paragraph)
+vanillaDomHelper.setElementsContent(div, paragraph)
 ```
 _creates_
 ```html
@@ -91,7 +91,7 @@ _creates_
 ### Examples of adding attributes to an existing DOM-Element
 ```javascript
 let button = document.querySelector('button')
-button = vanillaDomHelper.setElementsAttributes(button, 'disabled')
+vanillaDomHelper.setElementsAttributes(button, 'disabled')
 ```
 _creates_
 ```html
@@ -99,7 +99,7 @@ _creates_
 ```
 ```javascript
 let checkbox = document.querySelector('input[type="checkbox"]')
-checkbox = vanillaDomHelper.setElementsAttributes(checkbox, 'required checked')
+vanillaDomHelper.setElementsAttributes(checkbox, 'required checked')
 ```
 _creates_
 ```html
@@ -107,7 +107,7 @@ _creates_
 ```
 ```javascript
 let radio = document.querySelector('input[type="radio"]')
-radio = vanillaDomHelper.setElementsAttributes(checkbox, ['required', 'checked'])
+vanillaDomHelper.setElementsAttributes(radio, ['required', 'checked'])
 ```
 _creates_
 ```html
@@ -115,7 +115,7 @@ _creates_
 ```
 ```javascript
 let link = document.querySelector('a')
-link = vanillaDomHelper.setElementsAttributes(link, {'class': 'special-link', 'title': 'click here to go there'})
+vanillaDomHelper.setElementsAttributes(link, {'class': 'special-link', 'title': 'click here to go there'})
 ```
 _creates_
 ```html
